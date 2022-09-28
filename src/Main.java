@@ -27,5 +27,19 @@ public class Main {
         } else {
             System.out.println("Ещё не повзрослел");
         }
+
+        //Задание 3
+        System.out.println("Task 3");
+        int carFilled = 101;
+        if (carFilled >= 60) {
+            System.out.println("Остались только стоячие места");
+        } else {
+            System.out.println("Ещё есть сидячие места");
+        }
+        if (carFilled >= 102) {
+            System.out.println("Мест нет!");
+        } else {
+            System.out.println("Места ещё есть");
+        }
     }
 }
